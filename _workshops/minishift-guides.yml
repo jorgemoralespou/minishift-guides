@@ -1,0 +1,18 @@
+---
+id: minishift-workshop
+name: Getting started with Minishift
+
+content:
+  url: https://raw.githubusercontent.com/openshift-labs/minishift-guides/
+
+
+modules:
+  activate:
+  - installing-minishift
+  - common-cli
+  - accessing-minishift
+  - profiles
+  - addons
+  - cache
+  - developer-workflow
+  - further-resources

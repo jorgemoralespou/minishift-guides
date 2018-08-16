@@ -1,0 +1,32 @@
+config:
+  vars:
+    ##
+    # Common variables (environment dependant)
+    # 
+    - name: CONSOLE_ADDRESS
+      desc: Address to access the OpenShift console
+      value: https://master.osevg.openshiftworkshop.com
+
+modules:
+  installing-minishift:
+    name: Installing minishift
+  common-cli:
+    name: Installing the *oc* client tool
+    vars:
+      DOWNLOAD_CLIENT_WINDOWS:
+      DOWNLOAD_CLIENT_MAC:
+      DOWNLOAD_CLIENT_LIN32:
+      DOWNLOAD_CLIENT_LIN64:
+      OC_VERSION:
+  accessing-minishift:
+    name: Accesing the cluster for the first time
+  profiles:
+    name: Working with profiles
+  addons:
+    name: Adding capabilities to a cluster
+  cache:
+    name: Use caching to speed up your workflow
+  developer-workflow:
+    name: Recommendation for a developer workflow
+  further-resources:
+    name: Further resources
